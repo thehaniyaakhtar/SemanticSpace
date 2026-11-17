@@ -1,0 +1,89 @@
+
+# ==============================
+# PYTHON
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================
+# VIRTUAL ENVIRONMENTS
+# ==============================
+
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# JUPYTER
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# IDE AND EDITORS
+# ==============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# STREAMLIT
+# ==============================
+
+.streamlit/secrets.toml
+
+# ==============================
+# ENVIRONMENT VARIABLES
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# MODEL AND ML ARTIFACTS
+# ==============================
+
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.pkl
+*.joblib
+
+# Hugging Face caches
+.cache/
+huggingface/
+
+# ==============================
+# LOGS AND TEMPORARY FILES
+# ==============================
+
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# ==============================
+# TEST AND COVERAGE OUTPUT
+# ==============================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# BUILD ARTIFACTS
+# ==============================
+
+build/
+dist/
+*.egg-info/
