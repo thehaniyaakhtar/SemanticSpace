@@ -2,8 +2,6 @@
 import numpy as np
 from sklearn.decomposition import PCA
 from contextual_embeddings import get_contextual_embedding
-
-
 def build_contextual_dataset(sentences, target_word):
     if len(sentences) < 2:
         raise ValueError("At least two sentences are required.")

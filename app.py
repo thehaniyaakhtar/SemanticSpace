@@ -261,14 +261,12 @@ def style_3d_figure(fig, height=650):
                 zerolinecolor="rgba(151,145,255,0.35)",
                 showbackground=False
             ),
-            aspectmode="cube"
+            aspectmode="cube",
+            camera=dict(
+                eye=dict(x=1.6, y=1.6, z=1.25)
             ),
-            scene_camera=dict(
-                eye=dict(x=0.75, y=0.75, z=0.55)
-            )
-
         )
-    
+    )
 
     return fig
 
