@@ -1,6 +1,6 @@
 
-from contextual_visualization import build_contextual_dataset
-from contextual_movement_plot import create_movement_plot
+from context_visualization import build_contextual_dataset
+from context_movement_plot import create_movement_plot
 
 
 sentences = [
