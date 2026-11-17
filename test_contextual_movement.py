@@ -1,5 +1,4 @@
-
-from contextual_visualization import build_contextual_dataset
+from context_visualization import build_contextual_dataset
 
 from contextual_movement import (
     analyze_contextual_movement,
